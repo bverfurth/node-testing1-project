@@ -7,17 +7,10 @@
  * trimProperties({ name: '  jane  ' }) // returns a new object { name: 'jane' }
  */
 function trimProperties(obj) {
-  var trimmedObj = {};
-  for (var prop in obj) {
-    if (typeof obj[prop] === "string") {
-      trimmedObj[prop] = obj[prop].trim();
-    } else {
-      trimmedObj[prop] = obj[prop];
-    }
-  }
-  return trimmedObj;
+  // ✨ implement
+  return 9;
 }
-
+// console.log(trimProperties());
 /**
  * [Exercise 2] trimPropertiesMutation trims in place the properties of an object
  * @param {object} obj - an object with properties that are strings
